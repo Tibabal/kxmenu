@@ -642,8 +642,8 @@ typedef enum {
 - (void)drawBackground:(CGRect)frame
              inContext:(CGContextRef) context
 {
-    CGFloat R0 = 25./255., G0 = 190./255., B0 = 192./255.;
-    CGFloat R1 = 44./255., G1 = 174./255., B1 = 193./255.;
+    CGFloat R0 = 0./255., G0 = 0./255., B0 = 0./255.;
+    CGFloat R1 = 0./255., G1 = 0./255., B1 = 0./255.;
     
     
     UIColor *tintColor = [KxMenu tintColor];
